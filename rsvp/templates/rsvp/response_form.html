@@ -1,0 +1,9 @@
+{% extends "rsvp/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="row page-content rsvp">
+  <div class="col-sm-6 col-sm-offset-3">
+  {% crispy form form.helper %}
+</div>
+{% endblock %}

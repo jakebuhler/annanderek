@@ -1,0 +1,38 @@
+{% extends "rsvp/base.html" %}
+
+{% block content %}
+<div class="page-content registry">
+  <div class="row">
+    <div class="col-sm-6">
+      <p class="text-center">
+        <a href="#">
+          <img class="img-registry" src="/static/img/amazon-logo.jpg" alt="Amazon" />
+          <br />
+          Shop Online
+        </a>
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <p class="text-center">
+        <a href="#">
+          <img class="img-registry" src="/static/img/bbb-logo.png" alt="Bed Bath and Beyond" />
+          <br />
+          Shop Online
+        </a>
+        or in stores
+      </p>
+    </div>
+  </div>
+  <!--
+  <p>
+    We are registered at Bed Bath and Beyond.
+    <a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=544062230&eventType=Wedding&pwsurl">The registry is available online</a>
+    as well as in stores.
+  </p>
+  -->
+  <p class="registry-shipping text-center">
+    Since Anna will be moving to Colorado after the wedding, please ship gifts
+    there.<!-- (Bed Bath and Beyond has Derek's mailing address.)-->
+  </p>
+</div>
+{% endblock %}

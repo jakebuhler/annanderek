@@ -1,0 +1,73 @@
+a, a:hover {
+    color: rgb(0, 152, 0);
+}
+
+h1.pagetitle {
+    font-family: athelas, Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1.pagetitle > small {
+    color: rgb(51, 51, 51);
+}
+
+.page-content {
+    margin-bottom: 50px;
+}
+
+/*************
+ * Home page *
+ *************/
+
+img.clubhouse {
+    border: 5px solid rgb(51, 51, 51);
+    padding: 10px;
+}
+
+/*************
+ * Info page *
+ *************/
+
+.info {
+    font-family: athelas, Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.bride-and-groom {
+    font-style: normal;
+    font-size: 24px;
+    line-height: 26.4px;
+/* H2-sized
+    font-size: 30px;
+    line-height: 33px;
+ */
+}
+
+.date {
+    font-size: 24px;
+    line-height: 26.4px;
+}
+
+/*****************
+ * Registry page *
+ *****************/
+
+img.img-registry {
+    height: 108px;
+}
+
+p.registry-shipping {
+    margin-top: 36px;
+}
+
+/*********
+ * Forms *
+ *********/
+
+ .numberinput {
+    width: 84px;
+}
