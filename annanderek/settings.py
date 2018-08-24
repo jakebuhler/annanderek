@@ -26,6 +26,7 @@ SECRET_KEY = 'secr3t!'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'limitless-harbor-86293.herokuapp.com',
 ]
 
 
