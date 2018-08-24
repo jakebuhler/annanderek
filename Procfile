@@ -1,1 +1,1 @@
-web: gunicorn annanderek/wsgi.py --log-file -
+web: gunicorn annanderek.wsgi --log-file -
