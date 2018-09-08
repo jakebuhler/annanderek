@@ -1,5 +1,12 @@
+body {
+    background: url("/static/img/background.jpg");
+    background-size:100%;
+    height: 100vh;
+    width: 100vw;
+}
+
 a, a:hover {
-    color: rgb(0, 152, 0);
+    color: white;
 }
 
 h1.pagetitle {
@@ -8,10 +15,16 @@ h1.pagetitle {
     font-weight: 400;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: white;
+}
+
+.target-logo-img {
+    border: 35px solid white;
+    height: 300px !important;
 }
 
 h1.pagetitle > small {
-    color: rgb(51, 51, 51);
+    color: white;
 }
 
 .page-content {
@@ -23,7 +36,7 @@ h1.pagetitle > small {
  *************/
 
 img.clubhouse {
-    border: 5px solid rgb(51, 51, 51);
+    border: 5px solid lightgray;
     padding: 10px;
 }
 
@@ -35,16 +48,22 @@ img.clubhouse {
     font-family: athelas, Georgia, serif;
     font-style: italic;
     font-weight: 400;
+    color: lightgray;
 }
 
 .bride-and-groom {
     font-style: normal;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 26.4px;
+    color: white;
 /* H2-sized
     font-size: 30px;
     line-height: 33px;
  */
+}
+
+.text-center {
+    color: lightgray;
 }
 
 .date {
@@ -57,7 +76,7 @@ img.clubhouse {
  *****************/
 
 img.img-registry {
-    height: 108px;
+    height: 208px;
 }
 
 p.registry-shipping {
@@ -70,4 +89,19 @@ p.registry-shipping {
 
  .numberinput {
     width: 84px;
+}
+
+form#id-responseForm {
+    color: lightgray;
+}
+
+form#id-responseForm textarea,
+form#id-responseForm input#id_guest_count,
+form#id-responseForm input#id_name {
+    background-color:rgba(256,256,256,0.05);
+    color:rgb(226,226,226);
+}
+
+.text-uppercase a:hover {
+    color:rgb(60,60,60)!important;
 }

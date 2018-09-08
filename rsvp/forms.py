@@ -15,9 +15,9 @@ class ResponseForm(ModelForm):
         self.helper.form_method = 'post'
         self.helper.form_action = 'response-create'
         self.helper.layout = Layout(
-            Field('name', placeholder="e.g. Johnny B. Goode"),
+            Field('name', placeholder="e.g. Abraham Lincoln (Honest Abe)"),
             Field('guest_count', placeholder="e.g. 2"),
-            Field('accommodation_requests', rows=2, placeholder="e.g. Closer parking, wheelchair seating"),
+            Field('accommodation_requests', rows=2, placeholder="e.g. Dietary needs, wheelchair seating"),
         )
         self.helper.add_input(Submit('submit', 'Send RSVP'))
 
