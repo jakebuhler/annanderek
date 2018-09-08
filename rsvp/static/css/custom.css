@@ -18,6 +18,11 @@ h1.pagetitle {
     color: white;
 }
 
+.target-logo-img {
+    border: 35px solid white;
+    height: 300px !important;
+}
+
 h1.pagetitle > small {
     color: white;
 }
@@ -57,6 +62,10 @@ img.clubhouse {
  */
 }
 
+.text-center {
+    color: lightgray;
+}
+
 .date {
     font-size: 24px;
     line-height: 26.4px;
@@ -67,7 +76,7 @@ img.clubhouse {
  *****************/
 
 img.img-registry {
-    height: 108px;
+    height: 208px;
 }
 
 p.registry-shipping {
